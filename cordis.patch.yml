@@ -1,0 +1,6 @@
+# Profile bundle patch for dsh-agnes-image.
+# Inserts the host tool plugin into the profile's layer stack; modules are
+# resolved from the profile's installed dependencies.
+- insert:
+    - id: agnes-image
+      name: 'dsh-agnes-image'
